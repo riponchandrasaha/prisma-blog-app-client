@@ -6,6 +6,7 @@ import { Separator } from "@/components/ui/separator";
 import { blogService } from "@/services/blog.service";
 import { BlogPost } from "@/types";
 
+export const dynamicParams = false;
 //* [ { id: asdfasdfasd }, {id : asdfasdadsfa}, {id: asdfasdfasfasd} ]
 
 export async function generateStaticParams() {

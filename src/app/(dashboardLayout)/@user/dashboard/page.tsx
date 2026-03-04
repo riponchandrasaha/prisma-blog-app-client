@@ -1,9 +1,6 @@
+import { redirect } from "next/navigation";
 
-export default async function UserDashboard() {
+export default function UserDashboard() {
 
-  return (
-    <div>
-      <h1> UserDashboard </h1>
-    </div>
-  );
+  return redirect("/dashboard/create-blog");
 }

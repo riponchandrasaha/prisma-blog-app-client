@@ -1,11 +1,9 @@
+import { CreateBlogFormClient } from "@/components/modules/user/createBlog/CreateBlogFormClient";
 
-
-export default function CreateBlog() {
-
-  
+export default async function CreateBlogPage() {
   return (
-    <div>
-      <h1> create blog</h1>
+    <div className="h-[calc(100vh-100px)] flex items-center justify-center">
+      <CreateBlogFormClient />
     </div>
   );
 }
